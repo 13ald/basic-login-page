@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="login-box">
+            <h1 class="login-box-h1">Sign up</h1>
+
+            <div class="user-inputs">
+                <h3 class="login-header" type="user-name">Username</h3>
+                <input
+                    class="login-inputs"
+                    placeholder="Choose a username"
+                    id="newUsername" />
+            </div>
+            <div class="user-inputs">
+                <h3 class="login-header">Password</h3>
+                <input
+                    class="login-inputs"
+                    type="password"
+                    placeholder="Choose a password"
+                    id="newUserPassword" />
+            </div>
+            <div class="user-inputs">
+                <h3 class="login-header">Confirm Password</h3>
+                <input
+                    class="login-inputs"
+                    type="password"
+                    placeholder="Confirm your password"
+                    id="passwordConfirm" />
+            </div>
+            <div class="login-button-wrap">
+                <button class="login-buttons" id="signUpButton" onclick="onSignUp()">
+                    Sign up
+                </button>
+                <a class="login-buttons" class="login-button" href="index.html" class="login-links">Login</a>
+            </div>
+        </div>
+        <script src="basic.js"></script>
+    </body>
+</html>

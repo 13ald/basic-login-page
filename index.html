@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Console Test</title>
+        <script src="basic.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="login-box">
+            <h1 class="login-box-h1">Sign in</h1>
+            <p class="login-box-p">
+                Please enter your username and password. <br />
+                <a href="sign-up.html" class="login-links">Click here to sign up.</a>
+            </p>
+
+            <div class="user-inputs">
+                <h3 class="login-header" type="user-name">Username</h3>
+                <input
+                    class="login-inputs"
+                    placeholder="Type your username"
+                    id="user-name" />
+            </div>
+
+            <div class="user-inputs">
+                <h3 class="login-header">Password</h3>
+                <input
+                    class="login-inputs"
+                    id="user-pass"
+                    type="password"
+                    placeholder="Type your password" />
+                <a href=".html" class="login-links"> Forgot your password?</a>
+            </div>
+
+            <div class="login-button-wrap">
+                <button class="login-buttons" id="login-button" onclick="onSignIn()">
+                    Sign in
+                </button>
+                <button class="login-buttons" id="clear-button" onclick="clearInputs()">
+                    Clear
+                </button>
+            </div>
+        </div>
+
+        <script src="basic.js"></script>
+    </body>
+</html>
